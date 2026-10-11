@@ -1,0 +1,22 @@
+[project]
+name = "browserusedemo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shruti20rayakar", email = "shrutirayakar17@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "browser-use>=0.13.11",
+    "google-genai>=1.65.0",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+browserusedemo = "browserusedemo:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
